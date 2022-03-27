@@ -33,6 +33,7 @@ body {
   font-size: var(--copy-font-size);
   background-color: var(--white);
   color: var(--dark-grayish-magenta);
+  font-size: var(--body-font);
   line-height: 1.6;
 }
 
@@ -57,4 +58,32 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.l-main {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.section {
+  padding: 4rem 2rem;
+} 
+
+.home {
+  width: 100%;
+  height: auto;
+}
+
+.home .home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home__container .home__title {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: var(--font-semi-bold);
 }
