@@ -62,17 +62,14 @@ img {
 
 .l-main {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr;
+  grid-template: auto / 1fr;
 }
 
 .section {
-  padding: 4rem 2rem;
-} 
-
-.home {
   width: 100%;
   height: auto;
-}
+  padding: 3rem 2rem;
+} 
 
 .home .home__container {
   display: flex;
@@ -86,4 +83,39 @@ img {
   margin-bottom: 2rem;
   font-size: 1.8rem;
   font-weight: var(--font-semi-bold);
+}
+
+.ranking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranking .ranking__container .ranking__data {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grayish-magenta);
+  margin-bottom: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.ranking__data .ranking__description {
+  font-size: 1rem;
+  color: var(--dark-grayish-magenta);
+  font-weight: var(--font-medium);
+}
+
+.icon-star {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url('../images/icon-star.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
