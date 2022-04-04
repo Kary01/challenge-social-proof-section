@@ -127,15 +127,26 @@ img {
   align-items: center;
 }
 
+.comments .comments__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .comments .comments__card {
-  padding: 1rem;
+  width: auto;
+  height: auto;
+  padding: 1.2rem;
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
+  color: var(--light-grayish-magenta);
 }
 
 .comments .comments__data {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .comments .comments__data .comments__pic {
@@ -147,11 +158,17 @@ img {
 .comments .comments__data .comments__name {
   margin: 0 1rem;
   font-size: 1rem;
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
+  color: var(--white);
 }
 
 .comments__name span {
   font-size: .8rem;
   color: var(--soft-pink);
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-medium);
+}
+
+.comments .comments__copy {
+  font-size: 1rem;
+  text-align: left;
 }
