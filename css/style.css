@@ -61,14 +61,15 @@ img {
 }
 
 .l-main {
-  width: 85%;
+  max-width: 1024px;
   margin: 0 auto;
   display: grid;
   place-items: center;
   grid-template-areas:  "home ranking"
                         "comments comments";
-  grid-template-columns: auto auto;
+  grid-template-columns: 40% auto;
   grid-template-rows: auto auto;
+  row-gap: 2rem;
 }
 
 .section {
@@ -86,12 +87,12 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .home__container .home__title {
   margin-bottom: 2rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: var(--font-semi-bold);
 }
 
@@ -105,7 +106,7 @@ img {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 45px 45px auto 45px 45px;
+  grid-template-columns: auto auto 1fr auto auto;
   grid-template-rows: repeat(3, auto);
   gap: 1.5rem;
 }
@@ -132,21 +133,22 @@ img {
 }
 
 .ranking .ranking__container .ranking__data {
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: var(--light-grayish-magenta);
-  padding: .5rem;
+  padding: 1rem;
   border-radius: 5px;
 }
 
 .ranking__data .ranking__description {
   font-size: 1rem;
-  color: var(--dark-grayish-magenta);
-  font-weight: var(--font-medium);
+  color: var(--very-dark-magenta);
+  font-weight: var(--font-semi-bold);
+  margin-left: 1rem;
 }
 
 .icon-star {
