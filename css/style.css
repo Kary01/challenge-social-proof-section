@@ -28,13 +28,18 @@
 }
 
 body {
+  width: 100%;
+  height: auto;
   margin: 0;
   font-family: var(--body-font);
   font-size: var(--copy-font-size);
-  background-color: var(--white);
   color: var(--dark-grayish-magenta);
   font-size: var(--body-font);
   line-height: 1.6;
+  background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+  background-position: right 50vw bottom 0, left 0 top 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,h2,h3,ul,p {
