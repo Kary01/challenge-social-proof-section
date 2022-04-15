@@ -98,13 +98,37 @@ img {
 .ranking {
   display: grid;
   grid-area: ranking;
+  place-items: center;
 }
 
 .ranking__container {
+  width: 100%;
+  height: auto;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 45px 45px auto 45px 45px;
+  grid-template-rows: repeat(3, auto);
   gap: 1.5rem;
+}
+
+.ranking__data--one {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.ranking__data--two {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.ranking__data--three {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .ranking .ranking__container .ranking__data {
