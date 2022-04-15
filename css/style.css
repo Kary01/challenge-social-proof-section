@@ -268,8 +268,13 @@ img {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    background-image: url('../images/bg-pattern-top-mobile.svg');
+    background-position: right 40vw bottom 0;
+  }
+
   .l-main {
-    max-width: 400px;
+    max-width: 500px;
     grid-template-areas:  "home"
                           "ranking"
                           "comments";
