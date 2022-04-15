@@ -57,7 +57,7 @@ See below:
 }
 ```
 
-En el siguiente ejemplo, I used `grid-area`.
+In the next example, I used `grid-area`.
 This property span one or more cells both by row or by column.
 
 See below:
