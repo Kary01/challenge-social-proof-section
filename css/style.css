@@ -14,13 +14,12 @@
 
   /* font and typography */
   --body-font: 'Spartan', sans-serif;
-  --copy-font-size: 1.5rem;
+  --copy-font-size: 1.2rem;
 
    /* font weight */
    --font-regular: 400;
    --font-medium: 500;
    --font-semi-bold: 700;
-   
 }
 
 *,::before,::after {
@@ -34,7 +33,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--copy-font-size);
   color: var(--dark-grayish-magenta);
-  font-size: var(--body-font);
   line-height: 1.6;
   background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
   background-position: right 50vw bottom 0, left 0 top 20vh;
@@ -239,4 +237,17 @@ img {
 .comments .comments__copy {
   font-size: 1rem;
   text-align: left;
+}
+
+
+.l-footer {
+  margin: 2rem;
+}
+
+.l-footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.l-footer .attribution a {
+  color: hsl(228, 45%, 44%);
 }
