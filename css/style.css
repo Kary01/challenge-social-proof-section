@@ -92,15 +92,21 @@ img {
   align-items: center;
 }
 
+.ranking__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
 .ranking .ranking__container .ranking__data {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--light-grayish-magenta);
-  margin-bottom: 1rem;
   padding: .5rem;
   border-radius: 5px;
 }
@@ -128,8 +134,9 @@ img {
 }
 
 .comments .comments__container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
 }
 
