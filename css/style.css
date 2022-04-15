@@ -35,7 +35,7 @@ body {
   color: var(--dark-grayish-magenta);
   line-height: 1.6;
   background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
-  background-position: right 50vw bottom 0, left 0 top 20vh;
+  background-position: right 70vw bottom 0, left 0 top 20vh;
   background-repeat: no-repeat;
   background-size: cover;
 }

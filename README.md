@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Github Pages URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/social-proof-section-solution-rJ2K7i8Vc)
+- Live Site URL: [Github Pages URL here](https://kary01.github.io/challenge-social-proof-section/)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 In this project, I learned how to adjust rows and columns with the grid property.
 
->A `<grid>` is a set of intersecting horizontal and vertical lines defining columns and rows.
+>A `grid` is a set of intersecting horizontal and vertical lines defining columns and rows.
 
 See below:
 
@@ -57,7 +57,7 @@ See below:
 }
 ```
 
-En el siguiente ejemplo, I used `<grid-area>`.
+En el siguiente ejemplo, I used `grid-area`.
 This property span one or more cells both by row or by column.
 
 See below:
